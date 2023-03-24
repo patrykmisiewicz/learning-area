@@ -28,7 +28,24 @@
 
       /* Add your flexbox CSS below here */
 
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
       
+      button:nth-child(3) {
+        order:2
+      }
+
+      button:last-child {
+        order:1
+      }
+
+      button:first-child {
+        order: 3;
+      }
+
     </style>
   </head>
   <body>
